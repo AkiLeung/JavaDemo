@@ -8,7 +8,7 @@ package com.demo.efficiency;
 public class GarbageCollection {
 
     /**
-     * 主方法
+     * 程序主方法入口
      */
     public static void main(String[] args) {
         GarbageCollection gcDemo = new GarbageCollection();
@@ -29,7 +29,7 @@ public class GarbageCollection {
         long time2 = System.currentTimeMillis();
         long usedTime = time2 - time1;
         System.out.println("方法1耗时：" + usedTime);
-    } 
+    }
 
     /**
      * 方法二
