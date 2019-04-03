@@ -1,8 +1,5 @@
 package com.demo.efficiency;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Joseph.L
  * @date 2019-04-04
@@ -32,7 +29,7 @@ public class GarbageCollection {
         long time2 = System.currentTimeMillis();
         long usedTime = time2 - time1;
         System.out.println("方法1耗时：" + usedTime);
-    }
+    } 
 
     /**
      * 方法二
