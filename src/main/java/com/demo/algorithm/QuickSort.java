@@ -11,23 +11,19 @@ public class QuickSort {
      * 程序主入口
      */
     public static void main(String[] args) {
-        int[] numbers = {10, 20, 15, 0, 6, 7, 2, 1, -5, 55};
-        System.out.print("排序前：");
-        printArr(numbers);
-
-        quick(numbers);
-        System.out.print("快速排序后：");
-        printArr(numbers);
+        int[] array = {5, 2, 1, 4, 6, 7};
+        quick(array);
+        displayArray("快速排序后",array);
     }
 
     /**
      * 打印数组
      */
-    public static void printArr(int[] numbers) {
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[i] + ",");
+    public static void displayArray(String sortName, int[] array) {
+        System.out.println("执行：" + sortName + "的结果。");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println("array[" + String.format("%04d", i) + "]:" + array[i]);
         }
-        System.out.println("");
     }
 
     /**
@@ -36,10 +32,14 @@ public class QuickSort {
      * @param numbers 带排序数组
      */
     public static void quick(int[] numbers) {
+        long time1 = System.currentTimeMillis();
         //查看数组是否为空
         if (numbers.length > 0) {
             quickSort(numbers, 0, numbers.length - 1);
         }
+        long time2 = System.currentTimeMillis();
+        long userTime = time2 - time1;
+        System.out.println("结束执行时间：" + userTime);
     }
 
     /**
@@ -74,14 +74,18 @@ public class QuickSort {
             while (low < high && numbers[high] > temp) {
                 high--;
             }
-            numbers[low] = numbers[high];//比中轴小的记录移到低端
+            //比中轴小的记录移到低端
+            numbers[low] = numbers[high];
             while (low < high && numbers[low] < temp) {
                 low++;
             }
-            numbers[high] = numbers[low]; //比中轴大的记录移到高端
+            //比中轴大的记录移到高端
+            numbers[high] = numbers[low];
         }
-        numbers[low] = temp; //中轴记录到尾
-        return low; // 返回中轴的位置
+        //中轴记录到尾
+        numbers[low] = temp;
+        // 返回中轴的位置
+        return low;
     }
 
 }
