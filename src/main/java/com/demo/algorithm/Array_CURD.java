@@ -1,4 +1,4 @@
-package com.demo.algriothmn;
+package com.demo.algorithm;
 
 /**
  * @author Joseph.L
