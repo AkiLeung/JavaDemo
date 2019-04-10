@@ -26,14 +26,17 @@ public class SimpleCalculate implements Runnable {
         Thread t1 = new Thread(instance1);
         Thread t2 = new Thread(instance2);
         //2線程同時執行
-        t1.start();       t2.start();
+        t1.start();
+        t2.start();
         //2線程同時結束
-        t1.join();        t2.join();
+        t1.join();
+        t2.join();
         System.out.println(iCount);
     }
 
     /**線程默認執行方法
      * */
+    @Override
     public void run() {
         for (int i = 0; i < iTimes; i++) {
             iCount++;

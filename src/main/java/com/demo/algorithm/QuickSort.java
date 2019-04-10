@@ -70,7 +70,7 @@ public class QuickSort {
     public static int getMiddle(int[] numbers, int low, int high) {
         //数组的第一个作为中轴
         int temp = numbers[low];
-        while (low < high) {
+        while (low <= high) {
             while (low < high && numbers[high] > temp) {
                 high--;
             }
