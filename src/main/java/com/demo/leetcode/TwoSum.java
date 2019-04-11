@@ -14,7 +14,7 @@ public class TwoSum {
      * 程序主方法
      */
     public static void main(String[] args) {
-        int[] array = {2, 11,3,4, 7,15};
+        int[] array = {1, 2, 3, 7, 4, 9, 15};
         int target = 9;
         solution1(array, target);
         solution2(array, target);
@@ -70,19 +70,26 @@ public class TwoSum {
 
     /**
      * 解法3
+     * array = {2, 11,3,4, 7,15};
+     * target = 9
      */
     public static void solution3(int[] array, int target) {
         long startTime = System.currentTimeMillis();
 
         Map<Integer, Integer> map = new HashMap<>(array.length);
-
         for (int i = 0; i < array.length; i++) {
+            map.put(array[i], i);
+
             int complement = target - array[i];
             if (map.containsKey(complement)) {
-                System.out.println("[" +map.get(complement)  + "," + i + "]");
+                if (i < map.get(complement)) {
+                    //理论上不会从此输出，本质可以省略
+                    System.out.println("[" + i + "," + map.get(complement) + "]");
+                } else {
+                    //肯定从此输出
+                    System.out.println("[" + map.get(complement) + "," + i + "]");
+                }
                 break;
-            } else {
-                map.put(array[i], i);
             }
         }
 
