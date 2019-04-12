@@ -48,7 +48,7 @@ public class ReverseNumber {
         long runTime = endTime - startTime;
         System.out.println("方法1，运行时间：" + runTime);
         return intReturn;
-    }
+    } 
 
     /**
      * 方法2
