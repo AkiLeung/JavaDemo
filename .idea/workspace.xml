@@ -39,8 +39,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hash/HashTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="275">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +108,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1948" />
     <option name="y" value="54" />
     <option name="width" value="1936" />
@@ -171,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555472038560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555473428921" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -312,7 +316,7 @@
       <workItem from="1555029350494" duration="6593000" />
       <workItem from="1555036177703" duration="720000" />
       <workItem from="1555140944451" duration="766000" />
-      <workItem from="1555471605178" duration="433000" />
+      <workItem from="1555471605178" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1553763816611</created>
@@ -405,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555141595093</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hash testing">
+      <created>1555472089339</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555472089339</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90141000" />
+    <option name="totallyTimeSpent" value="91528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +432,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1948" y="54" width="1936" height="1096" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
@@ -434,7 +445,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26277372" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27125943" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,7 +517,8 @@
     <MESSAGE value="Algorithm For Sorting Update" />
     <MESSAGE value="generate fibonacci" />
     <MESSAGE value="leetCode testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetCode testing" />
+    <MESSAGE value="Hash testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash testing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" />
@@ -689,8 +701,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/hash/HashTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="275">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
