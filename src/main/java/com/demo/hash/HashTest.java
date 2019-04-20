@@ -28,4 +28,7 @@ public class HashTest {
             System.out.println("变量不等");
         }
     }
+
+
+
 }
