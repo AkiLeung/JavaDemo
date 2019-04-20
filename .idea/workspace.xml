@@ -4,13 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8b22ff-662c-4de3-9aaa-ba4c2d5a8bf7" name="Default Changelist" comment="Hash testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/designPattern/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/designpattern/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/designpattern/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/number/SerialNumber.java" afterDir="false" />
+    <list default="true" id="4c8b22ff-662c-4de3-9aaa-ba4c2d5a8bf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/encryption/EncryptDes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/hash/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/hash/HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/designpattern/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/designpattern/TestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,31 +20,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/designpattern/Singleton1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/encryption/EncryptDes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="289">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
-                <element signature="e#645#646#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/designpattern/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/designpattern/Singleton2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -107,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/demo/designPattern/Singleton2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/designPattern/TestClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/designPattern/Singleton1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/encryption/EncrptDes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/encryption/EncrytDes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/encryption/EncryptDes.java" />
       </list>
     </option>
   </component>
@@ -168,6 +152,15 @@
               <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="encryption" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555751138252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555753029476" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -212,7 +205,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.EncryptDes">
+    <configuration name="EncrptDes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.encryption.EncrptDes" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.encryption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncryptDes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.encryption.EncryptDes" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.encryption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.hash.HashTest" />
       <module name="JavaDemo" />
@@ -239,34 +258,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.algorithm.QuickSort" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.demo.leetcode.ReverseNumber" />
-      <module name="JavaDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.demo.designpattern.TestClass" />
       <module name="JavaDemo" />
@@ -281,19 +272,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.ReverseNumber" />
       <item itemvalue="Application.PalindromeNumber" />
       <item itemvalue="Application.HashTest" />
       <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.EncrptDes" />
+      <item itemvalue="Application.EncryptDes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EncryptDes" />
+        <item itemvalue="Application.EncrptDes" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.HashTest" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.ReverseNumber" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +323,7 @@
       <workItem from="1555140944451" duration="766000" />
       <workItem from="1555471605178" duration="2692000" />
       <workItem from="1555554554564" duration="754000" />
-      <workItem from="1555749988596" duration="1148000" />
+      <workItem from="1555749988596" duration="3392000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1553763816611</created>
@@ -446,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555473645274</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="design pattern singleton">
+      <created>1555751179624</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555751179624</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94302000" />
+    <option name="totallyTimeSpent" value="96546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,8 +463,8 @@
     <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49778435" visible="true" weight="0.18710022" />
-      <window_info id="Structure" order="1" sideWeight="0.5022157" side_tool="true" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.18710022" />
+      <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" visible="true" weight="0.18710022" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -475,7 +473,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27125943" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41227126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,7 +546,8 @@
     <MESSAGE value="generate fibonacci" />
     <MESSAGE value="leetCode testing" />
     <MESSAGE value="Hash testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hash testing" />
+    <MESSAGE value="design pattern singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="design pattern singleton" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml" />
@@ -766,10 +765,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/designpattern/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="550">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.2!/java.base/javax/crypto/spec/DESedeKeySpec.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/encryption/EncryptDes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
