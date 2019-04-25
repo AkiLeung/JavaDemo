@@ -1,6 +1,7 @@
 package com.demo.encryption;
 
 import com.sun.org.apache.xerces.internal.impl.dv.util.HexBin;
+import org.junit.jupiter.api.Test;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -22,6 +23,7 @@ public class EncryptDes {
         jdkDES();
     }
 
+    @Test
     public static void jdkDES() {
         try {
             //生成KEY
