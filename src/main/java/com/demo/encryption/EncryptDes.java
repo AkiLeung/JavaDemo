@@ -7,7 +7,6 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
-import javax.crypto.spec.DESedeKeySpec;
 import java.security.Key;
 
 /**
@@ -38,14 +37,14 @@ public class EncryptDes {
 
             //加密
             Cipher cipher = Cipher.getInstance("DES/ECB/PKCS5Padding");
-            cipher.init(Cipher.ENCRYPT_MODE,convertSecretKey);
+            cipher.init(Cipher.ENCRYPT_MODE, convertSecretKey);
             byte[] result = cipher.doFinal(info.getBytes());
-            System.out.println("jdk des encrypt:"+ HexBin.encode(result));
+            System.out.println("jdk des encrypt:" + HexBin.encode(result));
 
             //解密.
-            cipher.init(Cipher.DECRYPT_MODE,convertSecretKey);
+            cipher.init(Cipher.DECRYPT_MODE, convertSecretKey);
             result = cipher.doFinal(result);
-            System.out.println("jdk des decrypt:"+ new String(result));
+            System.out.println("jdk des decrypt:" + new String(result));
 
         } catch (Exception e) {
             e.printStackTrace();
